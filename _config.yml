@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Let's Coding
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: Eva Chan
 language: en
 timezone: ''
 
@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-ocean
+theme: lx
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
