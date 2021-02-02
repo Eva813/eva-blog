@@ -100,5 +100,5 @@ theme: lx
 deploy:
   type: git
   repo: https://github.com/Eva813/Eva813.github.io.git
-  branch: master
+  branch: gh-pages
 
