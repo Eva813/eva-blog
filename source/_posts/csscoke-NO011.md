@@ -7,7 +7,7 @@ tags: css 切版 icon animation
 ![](https://i.imgur.com/4oCdMgG.png)
 
 * 基本網頁的架構
-```htmlembedded=
+```html
 <body>
   <!-- 大區塊 wrap -->
   <div class="wrap">
@@ -53,7 +53,7 @@ tags: css 切版 icon animation
 
 ### `wrap` 的處理
 
-```css=
+```css
 .wrap {
       display: flex;
       max-width: 1200px;
@@ -71,7 +71,7 @@ tags: css 切版 icon animation
 * 方框的角是圓弧`border-radius: 5px;`，[參考](https://developer.mozilla.org/zh-CN/docs/Web/CSS/border-radius)
 * 方框背後有陰影`box-shadow`，[參考](https://developer.mozilla.org/zh-TW/docs/Web/CSS/box-shadow)
 
-```css=
+```css
 .item {
 
       width: 340px;
@@ -115,7 +115,7 @@ tags: css 切版 icon animation
 
 
 #### 在icon前加一個物件，
-```css=
+```css
 .item .icon::before {
       content: '';
       position: absolute;

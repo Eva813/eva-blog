@@ -16,7 +16,7 @@ tags: css 切版 多重背景
 * 裡面放一個container的容器，作為來設定裝下裡面文字的容器
 * 此container中，再放一個banner-txt，用來放置文字區塊
 
-```htmlembedded
+```html
 <body>
   <div class="banner">
     <div class="container">
