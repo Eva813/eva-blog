@@ -1,7 +1,7 @@
 ---
-title: Amos金魚都能懂的切版教學影片-csscoke NO017
+title: "Amos金魚都能懂的切版教學影片-csscoke NO017"
 date: 2020-11-27 18:28:58
-tags: css 切版
+tags: ["css","切版"]
 ---
 [成品](https://eva813.github.io/my-projects/coke-NO017(v1).html)
 ![](https://i.imgur.com/h8XYPgY.png)
@@ -82,14 +82,14 @@ tags: css 切版
 box-shadow: x y blur spread color inset;
 常用box-shadow多半用在區塊的光暈，來達成陰影的效果
 ```
-box-shado應用：
+{%note info%}
 - x：水平位移
 - y：垂直位移
 - blur：模糊程度，預設為0
 - spread：擴散程度，預設為0
 - color：顏色
 - inset：內陰影
-
+{%endnote%}
 
 ##### 毛玻璃特效 (注意：這是透過瀏覽器在處理特效，會比較耗效能)
 ```

@@ -1,10 +1,10 @@
 ---
 title: Amos金魚都能懂的切版教學影片- csscoke NO001
+categories: css
 date: 2020-11-27 15:26:57
-tags: css 切版 多重背景
+tags: ["css","切版"]
 ---
 ![](https://i.imgur.com/v5d6H4B.jpg)
-
 ## 一開始我的製作方式是
 * 一個區塊放圖片
 * 一個區塊放h1,下標
