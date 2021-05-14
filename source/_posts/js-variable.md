@@ -1,7 +1,7 @@
 ---
 title: js基本功- 變數與型別
 date: 2020-12-26 18:15:07
-tags: ["js","切版"]
+tags: ["js","variable"]
 ---
 
 ## 使用var來宣告變數
