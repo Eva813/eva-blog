@@ -276,7 +276,7 @@ $('.delete-btn').last().click(function () {
 
 ## localstorage 執行
 
-筆記補充：[LocalStorage介紹](https://hackmd.io/MNn_G1QWSH6xQdaeXXxmGg?view)
+筆記補充：[LocalStorage介紹](https://eva813.github.io/2021/01/10/localstorage/)
 
 從此實作，可以看到它是一個陣列，裡面是物件
 * 設置一個空陣列
