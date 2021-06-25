@@ -1,5 +1,5 @@
 ---
-title: js基本功- 控制流程 Control Flow
+title: JS基本功- 控制流程 Control Flow
 date: 2020-12-26 18:42:57
 tags: ["js","switch","迴圈"]
 ---

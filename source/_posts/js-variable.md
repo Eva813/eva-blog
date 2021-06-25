@@ -1,5 +1,5 @@
 ---
-title: js基本功- 變數與型別
+title: JS基本功- 變數與型別
 date: 2020-12-26 18:15:07
 tags: ["js","variable"]
 ---

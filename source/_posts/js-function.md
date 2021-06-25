@@ -1,5 +1,5 @@
 ---
-title: js基本功- function函式
+title: JS基本功- function函式
 date: 2020-12-27 18:55:19
 tags: ["js","parseInt"]
 ---

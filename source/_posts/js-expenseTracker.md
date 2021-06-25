@@ -1,5 +1,5 @@
 ---
-title: js實作- expense tracker 記帳簿
+title: JS實作- expense tracker 記帳簿
 date: 2021-01-10 10:08:01
 tags: ["js","local storage","forEach","append"]
 ---

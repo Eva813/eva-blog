@@ -1,5 +1,5 @@
 ---
-title: js-browser
+title: JS-browser
 date: 2020-12-28 18:47:58
 tags: ["js",DOM"]
 ---

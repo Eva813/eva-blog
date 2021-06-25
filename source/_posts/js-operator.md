@@ -1,5 +1,5 @@
 ---
-title: js基本功- 運算元與運算子
+title: JS基本功- 運算元與運算子
 date: 2020-12-26 18:35:07
 tags: ["js","parseInt"]
 ---

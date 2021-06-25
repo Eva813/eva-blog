@@ -1,5 +1,5 @@
 ---
-title: js基本功- 物件與陣列
+title: JS基本功- 物件與陣列
 date: 2020-12-27 21:17:13
 tags: ["js","array","object"]
 ---
