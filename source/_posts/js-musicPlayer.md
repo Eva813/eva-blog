@@ -1,5 +1,5 @@
 ---
-title: JS實作-musicPlayer
+title: JS實作- musicPlayer
 date: 2021-01-15 21:51:43
 tags: ["js","jQuery ","append"]
 ---
