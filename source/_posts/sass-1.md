@@ -1,7 +1,7 @@
 ---
 title: CSS 預處理器- Sass/SCSS 基本介紹
 date: 2021-03-05 09:41:46
-tags: ["Sass","drag&drop"]
+tags: ["SCSS"]
 ---
 
 ## 前言
