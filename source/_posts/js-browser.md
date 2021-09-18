@@ -1,7 +1,7 @@
 ---
 title: JS-browser
 date: 2020-12-28 18:47:58
-tags: ["js",DOM"]
+tags: ["JS",DOM"]
 ---
 ## 1. DOM 與樹狀結構
 ![](https://i.imgur.com/uZDTql8.png)

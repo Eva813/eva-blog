@@ -1,12 +1,12 @@
 ---
-title: 推送靜態網頁到github
+title: 推送靜態網頁到 GitHub
 date: 2020-11-24 14:03:02
-tags: github
+tags: GitHub
 ---
 ## 1.本地端創建資料夾
 
 在自己的user底下，mkdir my_projects
-## 2.github上創建專案(repo)
+## 2.GitHub上創建專案(repo)
 
 ![](https://i.imgur.com/4uIw6uY.png)
 
@@ -14,11 +14,11 @@ tags: github
 
 ![](https://i.imgur.com/BINSuXP.png)
 
-## 3.本地端>照著github上的建議複製過去終端機
+## 3.本地端>照著GitHub上的建議複製過去終端機
 
 ![](https://i.imgur.com/H1N0l14.png)
 
-## 4.github重新整理，出現專案資料夾
+## 4.GitHub重新整理，出現專案資料夾
 
 
 ![](https://i.imgur.com/4mZXgOJ.png)

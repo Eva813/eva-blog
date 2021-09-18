@@ -1,7 +1,7 @@
 ---
 title: JS實作- musicPlayer
 date: 2021-01-15 21:51:43
-tags: ["js","jQuery ","append"]
+tags: ["JS","jQuery ","append"]
 ---
 ## 觀察須製作的功能
 [成品](https://eva813.github.io/Eva_portfolio/musicPlayer/musicPlayer.html)

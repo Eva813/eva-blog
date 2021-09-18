@@ -1,7 +1,7 @@
 ---
 title: JS實作- DOM Array Methods
 date: 2021-01-15 22:19:25
-tags: ["js","Array"]
+tags: ["JS","Array"]
 ---
 [成品](https://eva813.github.io/Eva_portfolio/ArrayMethods/arrayMethod.html)
 ![](https://i.imgur.com/gtaxVol.png)

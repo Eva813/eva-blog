@@ -1,7 +1,7 @@
 ---
 title: JS實作- exchangeRate匯率轉換器
 date: 2021-01-10 09:50:30
-tags: ["js","ajax","input"]
+tags: ["JS","ajax","input"]
 ---
 ## 實作需求分析
 

@@ -1,7 +1,7 @@
 ---
 title: JS實作- 新年倒數
 date: 2021-01-16 09:17:11
-tags: ["js","jQuery","setInterval"]
+tags: ["JS","jQuery","setInterval"]
 ---
 [成品](https://eva813.github.io/Eva_portfolio/countDown/countDown.html)
 
@@ -12,7 +12,7 @@ tags: ["js","jQuery","setInterval"]
 * 最下面顯示倒數年份
 * page load的圖示(會旋轉1秒鐘)之後顯示倒數
 
-## css部分
+## CSS部分
 
 ```css
 /*增加讓螢幕寬度變化時，字的大小隨之改變
@@ -41,7 +41,7 @@ tags: ["js","jQuery","setInterval"]
 [Day22：小事之 Media Query
 ](https://ithelp.ithome.com.tw/articles/10196578)[CSS設定響應式(RWD)有幾種方法](https://malagege.github.io/blog/2019/05/05/CSS%E8%A8%AD%E5%AE%9A%E9%9F%BF%E6%87%89%E5%BC%8F-RWD-%E6%9C%89%E5%B9%BE%E7%A8%AE%E6%96%B9%E6%B3%95/)
 
-## js部分
+## JS部分
 
 ### 1. 宣告最終日期(新的一年1/1的日期)
 

@@ -1,7 +1,7 @@
 ---
 title: JS實作- SortableList
 date: 2021-01-15 22:10:22
-tags: ["js","drag&drop"]
+tags: ["JS","drag&drop"]
 ---
 [成品](https://eva813.github.io/Eva_portfolio/sortableList/sortableList.html)
 ## 觀察功能需求
@@ -14,7 +14,7 @@ tags: ["js","drag&drop"]
 * 拖曳項目到目標位置，會使了者交換
 * 排序最後會有一個檢查順序正確與否的按鈕
 
-## js部分
+## JS部分
 ### 1.排行榜的設置
 * 設定熱門旅遊縣市排行榜的陣列
 * 並宣告一個空陣列，以利後面使用

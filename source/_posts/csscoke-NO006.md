@@ -1,7 +1,7 @@
 ---
 title: Amos金魚都能懂的切版教學影片-csscoke NO006
 date: 2020-11-28 18:46:11
-tags: ["css","flex","footer"]
+tags: ["CSS","flex","footer"]
 ---
 
 [my_page](https://eva813.github.io/my-projects/coke-NO006(v1).html)
@@ -19,7 +19,7 @@ tags: ["css","flex","footer"]
 
 ![](https://i.imgur.com/CYzhwHq.png)
 
-## html
+## HTML
 
 ```html
 <body>

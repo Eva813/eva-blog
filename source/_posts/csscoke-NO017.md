@@ -1,7 +1,7 @@
 ---
 title: "Amos金魚都能懂的切版教學影片-csscoke NO017"
 date: 2020-11-27 18:28:58
-tags: ["css","切版"]
+tags: ["CSS","切版"]
 ---
 [成品](https://eva813.github.io/my-projects/coke-NO017(v1).html)
 ![](https://i.imgur.com/h8XYPgY.png)
@@ -39,7 +39,7 @@ tags: ["css","切版"]
 ```
 ![](https://i.imgur.com/VtS2Juk.png)
 
-## html,body 背景照片
+## HTML,body 背景照片
 
 要讓畫面整個垂直置中，首先需要讓畫面高度是夠高的！（預設的body,html是由內容所撐開，所以預設不是100%的高）
 

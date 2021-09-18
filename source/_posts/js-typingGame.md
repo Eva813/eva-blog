@@ -1,7 +1,7 @@
 ---
 title: JS實作- typingGame
 date: 2021-01-22 09:31:35
-tags: ["js","jQuery ","toggleClass"]
+tags: ["JS","jQuery ","toggleClass"]
 ---
 [成品](https://eva813.github.io/Eva_portfolio/typeGame/typeGame.html)
 ![](https://i.imgur.com/fC1gVUt.png)
@@ -17,7 +17,7 @@ tags: ["js","jQuery ","toggleClass"]
 * 設置reload的按鈕
     * 在要加入文字內容的容器中，添加`location.reload()`
 
-## html 部分
+## HTML 部分
 
 1.icon來源
 [font-awesome - cdnjs](https://www.codegrepper.com/code-examples/c/font-awesome+-+cdnjs.com+-+The+best+FOSS+CDN+for+web)
@@ -50,7 +50,7 @@ tags: ["js","jQuery ","toggleClass"]
 
 ```
 
-## js 部分
+## JS 部分
 
 ### 1.如何隨機取到已製作好的單字
 `words[Math.floor(Math.random() * words.length)]`

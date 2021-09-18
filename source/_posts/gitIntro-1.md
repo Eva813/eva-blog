@@ -1,9 +1,9 @@
 ---
-title: git介紹-1
+title: Git基本介紹-1
 date: 2020-11-21 16:34:36
-tags: git 
+tags: Git 
 ---
-git是用來，讓大家對於自己的程式碼做版本控制「Version Control System」
+Ｇit是用來，讓大家對於自己的程式碼做版本控制「Version Control System」
 >>也如同：save load 大法
  S是Save 存檔，L是Load 讀取;如：每天的工作可能都是每天新增、編輯、修改許多檔案，而git會紀錄每次檔案的修改資料
 

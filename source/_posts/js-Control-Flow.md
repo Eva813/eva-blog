@@ -1,7 +1,7 @@
 ---
 title: JS基本功- 控制流程 Control Flow
 date: 2020-12-26 18:42:57
-tags: ["js","switch","迴圈"]
+tags: ["JS","switch","迴圈"]
 ---
 ## 簡易控制流程的撰寫
 ```javascript

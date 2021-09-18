@@ -1,7 +1,7 @@
 ---
 title: JS基本功- 物件與陣列
 date: 2020-12-27 21:17:13
-tags: ["js","array","object"]
+tags: ["JS","Array","Object"]
 ---
 >程式柴
 >![](https://i.imgur.com/44kqCRM.png)

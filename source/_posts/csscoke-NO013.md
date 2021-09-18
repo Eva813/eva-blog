@@ -1,13 +1,13 @@
 ---
 title: "Amos金魚都能懂的切版教學影片- csscoke NO013"
 date: 2020-11-28 19:54:27
-tags: ["css","icon","box-sizing"]
+tags: ["CSS","icon","box-sizing"]
 ---
 
 [My page](https://eva813.github.io/my-projects/coke-NO013(v1).html)
 ![](https://i.imgur.com/BplwB2k.png)
 
-## html架構
+## HTML架構
 ```html
 <body>
 

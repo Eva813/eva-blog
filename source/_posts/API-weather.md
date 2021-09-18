@@ -1,7 +1,7 @@
 ---
 title: 串接API- 天氣預報
 date: 2021-02-23 14:42:02
-tags: ["ajax","API"]
+tags: ["Ajax",  "API"]
 ---
 [成品](https://eva813.github.io/Eva_portfolio/weatherAPI/weatherAPI.html)
 
@@ -27,8 +27,8 @@ tags: ["ajax","API"]
 畫面主要樣式是參考：
 [Build a Simple Weather App With Vanilla JavaScript](https://webdesign.tutsplus.com/tutorials/build-a-simple-weather-app-with-vanilla-javascript--cms-33893)
 
-## js部分
-### 1.利用ajax串接資料
+## JS部分
+### 1.利用Ajax串接資料
 
 * 根據平台提供的url作為取得資料的地方
 * 利用sucess/error，來查看是否有成功取得資料

@@ -1,7 +1,7 @@
 ---
 title: JS實作- expense tracker 記帳簿
 date: 2021-01-10 10:08:01
-tags: ["js","local storage","forEach","append"]
+tags: ["JS","local storage","forEach","append"]
 ---
 完成後的[成品](https://eva813.github.io/Eva_portfolio/expenseTracker/expenseTracker.html)
 ![](https://i.imgur.com/VSjpRSa.png)

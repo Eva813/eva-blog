@@ -1,7 +1,7 @@
 ---
 title: API-youtube
 date: 2021-02-23 14:47:04
-tags: ["ajax","API"]
+tags: ["Ajax","API"]
 ---
 [成品](https://eva813.github.io/Eva_portfolio/YoutubeAPI/YoutubeAPI.html)
 
@@ -34,7 +34,7 @@ jQuery API D ocument => 表示看官方文件
 
 ![](https://i.imgur.com/tSYR4vu.png)
 
-## js 部分
+## JS 部分
 ### 1.嘗試串接Youtube API
 
 * 首先需考量，我們所需要的資料參數有哪些(

@@ -1,14 +1,14 @@
 ---
 title: Amos金魚都能懂的切版教學影片-csscoke NO010
 date: 2020-11-27 15:48:59
-tags: ["css","切版","float"]
+tags: ["CSS","切版","float"]
 ---
 ## 練習使用float排版
 
 [成品](https://eva813.github.io/my-projects/coke-NO010(v2).html)
 ![](https://i.imgur.com/HSxrHVY.jpg)
 
-## html架構
+## HTML架構
 ```html
 <div class="wrap">
 	<div class="item">
@@ -195,7 +195,7 @@ tags: ["css","切版","float"]
 
 
 * 再將三個欄位設定margin，且增加ooxx的div
-* 並將ooxx，設定clear：both; 讓父層抓到高度
+* 並將ooxx，設定`clear：both;` 讓父層抓到高度
 
 >父層其實是被ooxx所拉開高度，而不是被內容的float物件所撐開
 >clear作用是散開浮動物件，跑到所有浮動物件後方(最下方) 圖二，紅色。

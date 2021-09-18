@@ -1,7 +1,7 @@
 ---
-title: css練習- omnifood 餐廳網頁
+title: CSS練習- omnifood 餐廳網頁
 date: 2020-12-13 13:05:53
-tags: ["udemy","css","icon","grid","多重背景","opacity"]
+tags: ["udemy","CSS","icon","grid","多重背景","opacity"]
 ---
 
 ## 介紹

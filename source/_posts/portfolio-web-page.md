@@ -1,7 +1,7 @@
 ---
-title: css練習- portfolio web page 作品集網頁
+title: CSS練習- portfolio web page 作品集網頁
 date:  2020-12-13 13:48:00
-tags: ["udemy","css","grid"]
+tags: ["udemy","CSS","grid"]
 ---
 
 ## 介紹 
