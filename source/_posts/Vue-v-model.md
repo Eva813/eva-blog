@@ -122,12 +122,12 @@ Vue.createApp({
 ## checkbox 複選框
 * 資料格式為陣列
 * 覆選框的input裡面要有value
-* 當綁定v-model，於畫面點選該項目時，會將input中的value，放入checkAnswer3的陣列中
-* ``<p>{{ checkAnswer3.join(' ') }}</p>``為渲染於畫面
+* 當綁定v-model，於畫面點選該項目時，會將 input 中的 value，放入的陣列中
+  *  最後將資料渲染於畫面
 ```html
     <h3>checkbox 複選框</h3>
     <p>你還要吃什麼？</p>
-    <p>{{ checkAnswer3.join(' ') }}</p>
+    <p>{{ checkAnswer3.join('') }}</p>
     <div class="form-check">
         <input type="checkbox" class="form-check-input" id="check3" value="蛋餅" v-model="checkAnswer3">
         <label class="form-check-label" for="check3">蛋餅</label>         </div>
