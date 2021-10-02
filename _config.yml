@@ -4,9 +4,9 @@
 
 # Site
 title: Let's Code
-subtitle: ''
+subtitle: 'asdsdasdasdas'
 description: ''
-keywords:
+keywords: 
 author: Eva Chan
 language: en
 timezone: ''
@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: lx
+theme: tranquilpeak
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -102,3 +102,12 @@ deploy:
   repo: git@github.com:Eva813/Eva813.github.io.git
   branch: master
 
+
+  fields:
+    - title
+    - tags
+    - date
+    - categories
+    - excerpt
+    - permalink
+    - thumbnailImageUrl
