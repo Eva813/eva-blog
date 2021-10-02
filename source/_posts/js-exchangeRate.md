@@ -58,12 +58,12 @@ $.ajax({
 
 [[ Alex 宅開發 ] 👨‍💻從 jQuery 入門到認識 JavaScript #5 Ajax 與非同步功能操作與原始碼探索](https://www.youtube.com/watch?v=z-hN7GY5K7g)
 
-{%note warning%}
+{% alert info no-icon %}
 - `url`:來源，api的位置在哪裏
 - `type`:api的呼叫方式
 - `dataType`:它回給你的資料類型
 - `data`:你要傳給它什麼
-{%endnote%}
+{% endalert %}
 
 ```javascript
 
@@ -129,10 +129,10 @@ function calculate() {
  (1). 抓取資料的位置
 ` url: https://v6.exchangerate-api.com/v6/06f04b805743079a1966771a/latest/${currency_one}`
 
-{%note warning%}
+注意網址：
 `"https://v6.exchangerate-api.com/v6/06f04b805743079a1966771a/latest/USD"`
 注意網址後面有修改，要抓取會變動的變數： ${currency_one}
-{%endnote%}
+
 
  (2) 檢查是否有抓到要的資料：
 * 宣告：`const rate = data.conversion_rates[currency_two];`

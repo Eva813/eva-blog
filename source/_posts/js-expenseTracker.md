@@ -385,14 +385,13 @@ const Transaction_str = `<li class='plus' >${name}<span> ${amount}</span><button
 * 應改為
 ![](https://i.imgur.com/snvF7AX.png)
 
-{%note warning%}
-此時還沒有真正刪除id，只是確定有抓到id :point_up_2: 
-{%endnote%}
 
-{%note info%}
+此時還沒有真正刪除id，只是確定有抓到id :point_up_2: 
+
+
 jquery `data()`： 自定義屬性 (data attributes)，讓我們可以任意讀寫資料在元素上，而且不會影響頁面的 layout
 [jQuery Data](https://www.fooish.com/jquery/data.html)
-{%endnote%}
+
 
 * #### 利用forEach、splice()刪除陣列內的資料
 ```javascript

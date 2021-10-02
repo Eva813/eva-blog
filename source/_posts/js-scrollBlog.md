@@ -160,14 +160,14 @@ doAjax();
 ![](https://i.imgur.com/wJPpdfh.png)
 
 
-{%note info%}
-使用jQuery創造div
+
+### 使用jQuery創造div
 [https://stackoverflow.com/questions/10402567/jquery-div-vs-div](https://stackoverflow.com/questions/10402567/jquery-div-vs-div)
-{%endnote%}
-{%note info%}
-.each()
+
+
+#### `each()`
 [jQuery.each()](https://api.jquery.com/jquery.each/)
-{%endnote%}
+
 
 ### 3.Infinite Scroll無限捲動(瀑布流)
 
@@ -191,10 +191,10 @@ if(scrollVal > 500){
 
 ```
 
-{%note info%}
-注意：window本身沒有scrollTop/Left這個屬性，所以window.scrollTop是undefined的
+
+#### 注意：window本身沒有scrollTop/Left這個屬性，所以window.scrollTop是undefined的
 所以可能要從body、document來取得
-{%endnote%}
+
 
 #### 本段落語法：
 

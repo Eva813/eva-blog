@@ -144,7 +144,7 @@ for (var i = 1; i <= 10; i++) {
 > alert(sum);
 > ```
 
-{%note info%}
+### 方式：
 和迴圈相關的變數追蹤(sum,n)
 
 第0次迴圈:先判斷n是否<=50
@@ -161,7 +161,8 @@ for (var i = 1; i <= 10; i++) {
 第50次迴圈：
    sum:1275,n:51
 第51次迴圈：因大於50，故跳離回圈結束
-{%endnote%}
+
+
 
 
 ### 延續上面的思考，加入continue
@@ -174,7 +175,7 @@ for (var i = 1; i <= 10; i++) {
      }
      alert(x)
      ```
-{%note info%}
+{% alert info no-icon %}
 變數追蹤(x,i)
 0:
   x:0,i:0
@@ -191,7 +192,8 @@ for (var i = 1; i <= 10; i++) {
 100:
   x:50,i:100
   
-{%endnote%}
+{% endalert %}
+
 
 ### 用 while 也可以達到相同的屬羊效果
 * 印出0~10

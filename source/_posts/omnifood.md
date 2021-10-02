@@ -1099,7 +1099,7 @@ transition: color .3s;
 
 # 補充
 ## `background`與`background-imge`之差別
-{%note info%}
+{% alert info no-icon %}
 background属性是整體設置的，background image是background的属性之一，background的屬性包括
 background-color
 background-image
@@ -1110,7 +1110,7 @@ background-position，
 background-image:url("some.jpg"); background-repeat:no-repeat;分開寫
 
 [background和background-image什么区别](https://bbs.csdn.net/topics/310167508)
-{%endnote%}
+{% endalert %}
 
 ```css
 .header{
@@ -1148,12 +1148,12 @@ background: url(./Omnifood\ Contents/hero.jpg) no-repeat
 
 ## 使用`button` vs `link`
 [Button versus Link](https://a11y-101.com/design/button-vs-link)
-{%note info%}
+{% alert info no-icon %}
 From a semantics and accessibility viewpoint:
 Links ``(<a>) ``are for "going someplace" such as "jumping to a different section of a page, going to another URL, etc.
 Whereas
 Buttons ``<button> ``are for "doing something" such as a function on the page to expand/collapse a menu, submit a form or etc.
-{%endnote%}
+{% endalert %}
 ## `grid`參考資料
 [Spectacularly Easy Responsive Design](http://www.responsivegridsystem.com/)
 [關於 Grid Layout 的使用姿勢](https://blog.hinablue.me/css-grid-layout/)
@@ -1178,11 +1178,11 @@ section{
 
 ![](https://i.imgur.com/ss2XfZd.png)
 
-{%note info%}
+
 ### 練習後的小心得：
 1.在html建構會使用`.row`
 2.應用grid,css
 3.內部，字的大小用百分比
 4.有一些可以共用的區塊，可以放在reuse區塊，並設一樣的class名稱，在建構時，可以更快速
-{%endnote%}
+
 

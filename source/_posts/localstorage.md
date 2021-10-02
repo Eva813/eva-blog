@@ -29,9 +29,9 @@ Web Storage 提供兩個物件可以將資料存在 client 端，一種是 local
 - 清除全部資料：``localStorage.clear()``
 > 只要將localStorage替換sessionStorage即可
 
-{%note warning%}
+###  注意：
 儲存在本地端的資料，格式為 key : value，需注意的是「value 的型態只有 String」!
-{%endnote%}
+
 
 ## 找到儲存的資料
 

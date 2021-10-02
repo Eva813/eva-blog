@@ -78,12 +78,12 @@ function creatList() {
   addEventListeners()
 }
 ```
-{%note info%}
+
 參考資料：
 push：
 [JS 從陣列 Array 尾端新增元素的 push()](https://ithelp.ithome.com.tw/articles/10222922)
 [JavaScript Array 陣列操作方法大全 ( 含 ES6 )](https://www.oxxostudio.tw/articles/201908/js-array.html)
-{%endnote%}
+
 ### 3.拖曳的監聽事件
 * 拖曳開始的監聽，元素是抓取`draggables`，後續的drop、dragenter、dragover等事件，元素是`.draggable-list li`
 * 針對要被拖曳的元素（dragSource）監聽事件

@@ -27,10 +27,10 @@ tags: GitHub
 
 `git checkout -b gh-pages`：創建新分支(gh-pages)並同時移到此新分支上
 
-{%note info%}
+
 `git branch gh-pages`:創建新分支(gh-pages)
 `git checkout gh-pages`:移到(gh-pages)分支上
-{%endnote%}
+
 
 ![](https://i.imgur.com/85Z04Hv.png)
 

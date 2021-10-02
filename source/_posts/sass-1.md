@@ -86,9 +86,9 @@ $font-sm:20px;
 * 在後面加上`！global`就變成全域
 ![](https://i.imgur.com/jbDV03A.png)
 
-{%note info%}
-還是建議以global 的方式進行修改，才不會造成維護的混亂
-{%endnote%}
+
+PS: 還是建議以global 的方式進行修改，才不會造成維護的混亂
+
 * 命名中使用`-`以及`_`，在sass中是一樣的
     * 如`$font-lg`改為`$font_lg`一樣也會有效
 
@@ -157,9 +157,9 @@ $font-sm:20px;
 
 ![](https://i.imgur.com/IL4dwvL.png)
 
-{%note info%}
-巢狀層級不可以太多層，否則會出現效率問題
-{%endnote%}
+
+#### 巢狀層級不可以太多層，否則會出現效率問題
+
 
 ### @import 是什麼
 * import 讓我們可以拉出特定區塊或是根據功能性不同拆成不同區塊，來撰寫scss，並利用@import放入主要的scss檔案，最後彙整到同一個css之中。

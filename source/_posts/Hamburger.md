@@ -323,7 +323,7 @@ align-items:center;
 ## 上層導覽列，連結的3d按鈕製作
 
 * 在他們的html 設定data-text
-```htmlembedded=
+```htmlembedded
 <li> <a href="#" class="nav-link" data-text='Home'>Home</a> </li>
                    
 ```

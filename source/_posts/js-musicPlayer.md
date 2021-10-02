@@ -162,12 +162,12 @@ tags: ["JS","jQuery ","append"]
  width: calc(100% - 40px);
   padding: 10px 10px 10px 150px;
 ```
-{%note info%}
+#### `calc()`
 calc() 的運算式一樣是按照先乘除後加減進行計算
  width: calc(100% - 40px);
 /* 意思是 100% 的寬度 - 去 40px */
 [CSS： calc() 數值運算](https://5xruby.tw/posts/css-calc/)
-{%endnote%}
+
 
 
 ![](https://i.imgur.com/er3G6Wd.png)
@@ -213,11 +213,11 @@ margin: 0;
 * 在icon的部分：在播放時：為暫停鍵圖示;在暫停時：為播放鍵的圖示
 * 透過play()、pause()，讓音源播放與暫停
 
-{%note info%}
+### `play()`、`pause()`
 因為play()、pause()是DOM元素，不是jQuery的function，而要用jQuery取得DOM元素
 ``$('#audio').get(0).play()`` =>``$('#audio')[0].play()``
 `$('#audio').get(0).pause()` =>`$('#audio')[0].pause()`
-{%endnote%}
+
 
 參考資料：
 [How do I pull a native DOM element from a jQuery object?](https://learn.jquery.com/using-jquery-core/faq/how-do-i-pull-a-native-dom-element-from-a-jquery-object/)

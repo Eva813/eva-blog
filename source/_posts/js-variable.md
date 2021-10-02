@@ -12,10 +12,9 @@ tags: ["JS","variable"]
 #### 給予值之後
 ![](https://i.imgur.com/b916Z2B.png)
 
-{%note info%}
 程式語言中 等於符號`=` 不是比較的意思，是->指派值的意思
 上圖：1是一個值，它指派給x這個變數
-{%endnote%}
+
 
 ### 要比較值的大小
 - true,false（布林值）
@@ -99,9 +98,8 @@ tags: ["JS","variable"]
 ![](https://i.imgur.com/NSAe3A0.png)
 * #### 字串連接 
 ![](https://i.imgur.com/bqpGAjI.png)
-{%note info%}
+
 `clear()`  清除頁面
-{%endnote%}
 
 ## Boolean 布林值
 ![](https://i.imgur.com/fcMnCjC.png)

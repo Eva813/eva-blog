@@ -23,10 +23,10 @@ q: query
 
 API 金鑰:AIzaSyCKPRCaNS-PQJLl2jzoQEf-O4I0tnrtd8M
 
-{%note info%}
+{% alert info no-icon %}
 jQuery API D ocument => 表示看官方文件
 串API =>
-{%endnote%}
+{% endalert %}
 
 #### 檢視範例，ajax資料的情形
 

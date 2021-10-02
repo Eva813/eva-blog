@@ -82,14 +82,14 @@ tags: ["CSS","切版"]
 box-shadow: x y blur spread color inset;
 常用box-shadow多半用在區塊的光暈，來達成陰影的效果
 ```
-{%note info%}
+補充
 - x：水平位移
 - y：垂直位移
 - blur：模糊程度，預設為0
 - spread：擴散程度，預設為0
 - color：顏色
 - inset：內陰影
-{%endnote%}
+
 
 ##### 毛玻璃特效 (注意：這是透過瀏覽器在處理特效，會比較耗效能)
 ```

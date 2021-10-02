@@ -101,9 +101,9 @@ function updateDOM(provideData = data) {
   })
 }
 ```
-{%note info%}
+
 注意：如果本來 HTML 某元素有既有的內容，但是又用 innerHTML 在同樣的元素上加上內容的時候，innerHTML 會把原本寫的東西覆蓋掉。
-{%endnote%}
+
 
 ![](https://i.imgur.com/xjxIGr7.png)
 
@@ -197,11 +197,11 @@ function doubleMoney() {
 ![](https://i.imgur.com/M0R5KV4.png)
 
 
-{%note info%}
+{% alert info no-icon %}
 `forEach()`: 针对每一个元素执行提供的函数(executes a provided function once for each array element)。
 `map()`: 创建一个新的数组，其中每一个元素由调用数组中的每一个元素执行提供的函数得来(creates a new array with the results of calling a provided function on every element in the calling array)。
 [JavaScript中Map和ForEach的区别](https://blog.fundebug.com/2018/02/05/map_vs_foreach/)
-{%endnote%}
+{% endalert %}
 
 ## 運用`sort`來建立排名
 
@@ -217,7 +217,7 @@ function sortEvent() {
 }
 ```
 
-{%note info%}
+{% alert info no-icon %}
 `sort`依據字串的 Unicode 編碼進行排序，會改變原本的陣列。
 * 排序進行方式：`sort()`會將所有元素轉成字串後，且以第一個字元為對象，再進行排序。
 * 比較好的方式：一般會建議，還是以函式傳入參數來當排序條件會比較穩定。
@@ -242,7 +242,7 @@ arr.sort(function(a, b) {
 ```
 
 
-{%endnote%}
+{% endalert %}
 參考資料：[JS 將陣列 Array 重新排列的 sort()](https://ithelp.ithome.com.tw/articles/10225733)、[淺談 JS sort() 到背後排序方法](https://medium.com/@leokao0726/%E6%B7%BA%E8%AB%87-js-sort-%E5%88%B0%E8%83%8C%E5%BE%8C%E6%8E%92%E5%BA%8F%E6%96%B9%E6%B3%95-1035f5b8cde8)
 
 ## `filter`篩選百萬以上的人員
@@ -257,9 +257,9 @@ function filterMillionaires() {
 }
 ```
 
-{%note info%}
-`filter()`的使用是回傳新陣列，原陣列不改變
-{%endnote%}
+
+PS:`filter()`的使用是回傳新陣列，原陣列不改變
+
 
 
 ## reduce 
