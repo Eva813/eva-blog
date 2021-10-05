@@ -2,6 +2,7 @@
 title: JS實作- 猜數字遊戲
 date: 2021-01-22 09:28:14
 tags: ["JS","jQuery ","random"]
+categories: JS實作練習
 ---
 [成品](https://eva813.github.io/Eva_portfolio/guessNumber/guessNumber.html)
 ## 觀察功能需求

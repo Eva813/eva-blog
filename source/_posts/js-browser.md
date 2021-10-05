@@ -3,6 +3,9 @@ title: JS-browser
 date: 2020-12-28 18:47:58
 tags: ["JS",DOM"]
 ---
+
+![](https://i.imgur.com/NdO4OR5.png)
+
 ## 1. DOM 與樹狀結構
 ![](https://i.imgur.com/uZDTql8.png)
 * DOM: document:網頁內部

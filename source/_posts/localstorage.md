@@ -3,6 +3,8 @@ title: 認識什麼是LocalStorage
 date: 2021-01-10 10:36:26
 tags: ["LocalStorage"]
 ---
+![](https://i.imgur.com/qCvmh4b.png)
+
 ## 認識 Web Storage：
 
 HTML5 的 Web Storage 是一種可讓網頁將資料儲存於本地端的技術，其作用如同 cookie。

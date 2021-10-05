@@ -1,8 +1,9 @@
 ---
 title: Vue.js 3 - 事件綁定
 date: 2021-05-16 16:16:30
-tags: ["Vue.js"]
+tags: ["Vue"]
 ---
+![](https://i.imgur.com/NBBY8vo.png)
 
 * 建立add、minus兩個按鈕
     * 點選add增加數字、點選minus減少數字

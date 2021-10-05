@@ -2,6 +2,7 @@
 title: JS實作- exchangeRate匯率轉換器
 date: 2021-01-10 09:50:30
 tags: ["JS","ajax","input"]
+categories: JS實作練習
 ---
 ## 實作需求分析
 
@@ -58,12 +59,12 @@ $.ajax({
 
 [[ Alex 宅開發 ] 👨‍💻從 jQuery 入門到認識 JavaScript #5 Ajax 與非同步功能操作與原始碼探索](https://www.youtube.com/watch?v=z-hN7GY5K7g)
 
-{% alert info no-icon %}
+```
 - `url`:來源，api的位置在哪裏
 - `type`:api的呼叫方式
 - `dataType`:它回給你的資料類型
 - `data`:你要傳給它什麼
-{% endalert %}
+```
 
 ```javascript
 

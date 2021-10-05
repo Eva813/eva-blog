@@ -2,7 +2,10 @@
 title: API-youtube
 date: 2021-02-23 14:47:04
 tags: ["Ajax","API"]
+categories: Ajax 實作練習
 ---
+![](https://i.imgur.com/HyrwBQl.png)
+
 [成品](https://eva813.github.io/Eva_portfolio/YoutubeAPI/YoutubeAPI.html)
 
 ## 觀察功能需求
@@ -23,10 +26,10 @@ q: query
 
 API 金鑰:AIzaSyCKPRCaNS-PQJLl2jzoQEf-O4I0tnrtd8M
 
-{% alert info no-icon %}
+```
 jQuery API D ocument => 表示看官方文件
 串API =>
-{% endalert %}
+```
 
 #### 檢視範例，ajax資料的情形
 

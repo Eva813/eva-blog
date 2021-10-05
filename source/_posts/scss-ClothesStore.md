@@ -3,6 +3,7 @@ title: SCSS- ClothesStore
 date: 2021-03-05 14:26:19
 tags: ["SCSS","grid"]
 ---
+![](https://i.imgur.com/v5qnxzN.png)
 
 [成品](https://eva813.github.io/Eva_portfolio/sass-ClothesStore/ClothesStore.html)
 ## scss 檔案的建立

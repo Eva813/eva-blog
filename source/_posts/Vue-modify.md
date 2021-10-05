@@ -1,8 +1,9 @@
 ---
 title: Vue.js 3 - v-on 修飾符
 date: 2021-09-20 15:06:46
-tags:
+tags: ["Vue"]
 ---
+![](https://i.imgur.com/NBBY8vo.png)
 
 修飾符有分為：
 1.按件修飾符

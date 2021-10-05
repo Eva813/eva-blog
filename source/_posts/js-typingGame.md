@@ -2,6 +2,7 @@
 title: JS實作- typingGame
 date: 2021-01-22 09:31:35
 tags: ["JS","jQuery ","toggleClass"]
+categories: JS實作練習
 ---
 [成品](https://eva813.github.io/Eva_portfolio/typeGame/typeGame.html)
 ![](https://i.imgur.com/fC1gVUt.png)
@@ -218,7 +219,7 @@ let difficulty = localStorage.getItem('difficulty') !== null
 ![](https://i.imgur.com/2YKGGsw.png)
 
 * 在css檔案加入show的class，並插入該圖示的顯現方式
-* 於js部分，將判斷式，加入`gameOver()`
+* 於js部分，將判斷式，加入`gameOver()a`
 
 
 ```javascript

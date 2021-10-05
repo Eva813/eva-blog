@@ -3,6 +3,8 @@ title: HTML基本介紹-2
 date: 2020-11-18 14:12:02
 tags: ["HTML"]
 ---
+![](https://i.imgur.com/JDE6QZb.png)
+
  此篇文章主要再介紹HTML的元素、屬性，以及簡介在前端開發中常使用的css和javascript是如何和HTML搭配使用。
 ## HTML 元素 (Element)
 ```html

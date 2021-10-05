@@ -2,6 +2,7 @@
 title: 串接API- 天氣預報
 date: 2021-02-23 14:42:02
 tags: ["Ajax",  "API"]
+categories: Ajax 實作練習
 ---
 [成品](https://eva813.github.io/Eva_portfolio/weatherAPI/weatherAPI.html)
 

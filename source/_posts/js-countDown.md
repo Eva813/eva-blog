@@ -2,6 +2,7 @@
 title: JS實作- 新年倒數
 date: 2021-01-16 09:17:11
 tags: ["JS","jQuery","setInterval"]
+categories: JS實作練習
 ---
 [成品](https://eva813.github.io/Eva_portfolio/countDown/countDown.html)
 

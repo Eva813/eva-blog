@@ -2,6 +2,7 @@
 title: JS實作- scrollBlog
 date: 2021-01-16 09:03:51
 tags: ["JS","ajax ","setTimeout"]
+categories: JS實作練習
 ---
 [成品](https://eva813.github.io/Eva_portfolio/scrollBlog/scrollBlog.html)
 ## 觀察功能需求

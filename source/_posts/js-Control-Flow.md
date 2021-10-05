@@ -175,7 +175,7 @@ for (var i = 1; i <= 10; i++) {
      }
      alert(x)
      ```
-{% alert info no-icon %}
+```
 變數追蹤(x,i)
 0:
   x:0,i:0
@@ -192,7 +192,7 @@ for (var i = 1; i <= 10; i++) {
 100:
   x:50,i:100
   
-{% endalert %}
+```
 
 
 ### 用 while 也可以達到相同的屬羊效果

@@ -1,9 +1,9 @@
 ---
 title: Vue.js 3 - 屬性綁定
 date: 2021-05-16 14:56:28
-tags: ["Vue.js"]
+tags: ["Vue"]
 ---
-
+![](https://i.imgur.com/NBBY8vo.png)
 
   屬性綁定可以輕鬆的將data中的資料，與HTML的標籤屬性綁定，這樣一來可以動態的變更資料。
 

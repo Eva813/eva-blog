@@ -1,7 +1,7 @@
 ---
 title: Vue.js 3 - 綁定方式多變化
 date: 2021-05-16 16:17:30
-tags: ["Vue.js"]
+tags: ["Vue"]
 ---
 
 ## 動態屬性綁定(注意大小寫)
@@ -39,12 +39,12 @@ Vue.createApp({
 ![](https://i.imgur.com/GfAhQJk.png)
 
 ![](https://i.imgur.com/YUf3XZk.png)
-{% alert info no-icon %}
+```
 再次補充說明：
     1. dynamic = 【這邊是最前面的變數，用來存放後面回傳回來的值】
     2. dynamic === 'disabled' ? 【這邊就是中間判斷式的部分，判斷 dynamic 變數是否為 'disabled'】
     3. 'readonly':'disabled' 【這邊就是最後面的值，會依照前方的判斷式來決定回傳 'readonly' 還是 'disabled'，如果判斷式結果為 True 則回傳 'readonly' ，反之回傳 'disabled'】
-{% endalert %}
+```
 
 
 ## HTML 樣式綁定

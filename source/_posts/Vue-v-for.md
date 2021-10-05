@@ -1,8 +1,10 @@
 ---
 title: Vue.js 3 -  多筆資料渲染 v-for
 date: 2021-05-17 16:20:22
-tags: ["Vue.js","v-for"] 
+tags: ["Vue","v-for"] 
 ---
+![](https://i.imgur.com/NBBY8vo.png)
+
 
 ## ` v-for` 呈現多筆陣列
 * `v-for= item in peopleArr` ， item 為 自定義名稱，後面(peopleArr)填入要迴圈的資料
@@ -182,8 +184,8 @@ Vue.createApp({
   1.與後端溝通，為何前端要用到key的值
   2.拿到資料後，自己產生key，並放入該物件資料中
 
-{% alert info no-icon %}
+```
 使用v-for時，一定要用key 
 使用v-for時，不要拿索引當作key
 請使用唯一的值當作key的值
-{% endalert %}
+```

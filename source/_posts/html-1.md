@@ -3,6 +3,8 @@ title: HTML基本介紹-1
 date: 2020-11-20 20:51:30
 tags: ["HTML"]
 ---
+![](https://i.imgur.com/JDE6QZb.png)
+
 * 標記式語言，也就是透過標籤來建立
 * 目前的規範版本為 HTML 5
 # 建立第一個網頁

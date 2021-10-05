@@ -1,8 +1,10 @@
 ---
 title: Vue.js 3 -  資料雙向綁定 v-model
 date: 2021-05-17 16:16:22
-tags: ["Vue.js"]
+tags: ["Vue"]
 ---
+![](https://i.imgur.com/NBBY8vo.png)
+
 
 使用` v-model`來進行資料的「雙向」綁定， v-model 會根據不同的表單類別來更新元素的內容。
 主要應用在表單類型進行綁定，常見的表單元素像是 `<input>`、`<textarea>` 以及 `<select>` 等。

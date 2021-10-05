@@ -2,7 +2,10 @@
 title: CSS練習- portfolio web page 作品集網頁
 date:  2020-12-13 13:48:00
 tags: ["udemy","CSS","grid"]
+catagories: CSS練習
 ---
+![](https://i.imgur.com/3DLhHgL.png)
+
 
 ## 介紹 
 [成品](https://eva813.github.io/Eva_portfolio/portfolio01/portfolio01.html)

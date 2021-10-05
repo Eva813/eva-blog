@@ -1,8 +1,12 @@
 ---
 title: JS實作- SortableList
+categories: JS實作練習
 date: 2021-01-15 22:10:22
 tags: ["JS","drag&drop"]
+
 ---
+![](https://i.imgur.com/K6JyjsG.png)
+
 [成品](https://eva813.github.io/Eva_portfolio/sortableList/sortableList.html)
 ## 觀察功能需求
 * Drag & Drop API
