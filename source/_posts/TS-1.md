@@ -90,12 +90,14 @@ let num: number = u;
     * 當有明確型別時，應避免使用 any 
     * 因為 any 可以任意調用方法和屬性，很有可能出現錯誤（就喪失類型檢查的意義）
 如果是 any 型別，則允許被賦值為任意型別
+
 ```TypeScript
 let myFavoriteNumber: any = 'seven';
 myFavoriteNumber = 7;
 ```
 #### 未宣告型別的變數
 變數如果在宣告的時候，未指定其型別，那麼它會被識別為任意值型別：
+
 ```JavaScript
 let something;
 something = 'seven';
@@ -122,9 +124,9 @@ list.push("4")
 ```
 ![](https://i.imgur.com/bzszCFn.png)
 ### 元組 Tuple
-* 剛剛的陣列將同一類型的數據放在一起，但是，想加入不同型別的數據怎麼辦？
-* 表示方式與陣列相似，將型別寫在``[]``
-* 有固定長度和元素型別的陣列
+ * 剛剛的陣列將同一類型的數據放在一起，但是，想加入不同型別的數據怎麼辦？
+ * 表示方式與陣列相似，將型別寫在``[]``
+ * 有固定長度和元素型別的陣列
 ```typescript
 // 表示方式和陣列非常相似，只不过它将型別寫在了里面 這時會對每一項產生了限定的作用
 let user: [string, number] = ['viking', 20]
@@ -139,6 +141,7 @@ user = ['molly', 20, true]
 ### 物件的型別——介面 (Interface)
 * Interface 可以用來定義物件，還有由物件所延伸的型別（例如，陣列、函式）
 * `age?: number;` 在該屬性後面加上 `?` 表示為可選屬性 ，也就是在宣告新的物件時，可以彈性加入或不加入age （也不會報錯）
+
 ```typescript
 // 我们定義了一個介面 Person
 interface Person {
@@ -167,8 +170,8 @@ let NaNa: Person = {
 ### 唯讀屬性
 * readonly 是用在屬性上面
 * 希望物件中的一些欄位只能在建立的時候被賦值，那麼可以用 readonly 定義唯讀屬性
-```typescript
 
+```typescript
 interface Person {
   readonly id: number;
   name: string;
@@ -183,7 +186,6 @@ let Vic: Person ={
 //不能去修改id    
 Vic.id = 9527
 ```
-
 ### 函式型別
 * 函式可以作為參數、可以存入陣列，可以被另外一個函式返回、可以被賦值另外一個變數
 * 函式是由兩部分構成，一個是輸入(通過不同參數來實現)，二為輸出(就是函數的返回結果)
@@ -217,6 +219,7 @@ function add(x: number, y: number, z?: number): number {
 
 #### 例外說明：引數預設值
 * 在 ES6 中，我們允許給函式的引數新增預設值，TypeScript 會將添加了預設值的引數識別為可選引數：
+
 ```typescript
 function buildName(firstName: string, lastName: string = 'Cat') {
     return firstName + ' ' + lastName;
@@ -232,11 +235,9 @@ function buildName(firstName: string = 'Tom', lastName: string) {
 let tomcat = buildName('Tom', 'Cat');
 let cat = buildName(undefined, 'Cat');
 ```
-
-
-
 #### 例子三
 * 函式的表達式
+
 ```typescript
 const add = (x: number, y: number, z?: number): number => {
   if (typeof z === 'number') {
@@ -248,6 +249,7 @@ const add = (x: number, y: number, z?: number): number => {
 
 // 函式本身的类型
 const add2: (x: number, y: number, z?:number) => number = add
+
 ```
 * 函式不只輸入、輸出有類型，本身也有類型
 ![](https://i.imgur.com/f2Ym2Zb.png)
@@ -257,6 +259,7 @@ const add2: (x: number, y: number, z?:number) => number = add
 
 #### 例子四
 * 使用 interface (單純定義函式的 Interface)
+
 ```typescript
 // interface 描述函数类型
 const sum = (x: number, y: number) => {
@@ -268,6 +271,7 @@ interface ISum {
 const sum2: ISum = sum
 ```
 * 另一個範例
+
 ```typescript
 interface SearchFunc {
     (source: string, subString: string): boolean;
@@ -290,6 +294,7 @@ mySearch = function(source: string, subString: string) {
 ### 聯合型別（Union Types）
 * 用分隔符號
 * 當 TypeScript 不确定一个聯合型別的變數到底是哪個型別的时候，我们只能使用此聯合型別的所有型別裡共有的屬性或方法
+
 ```TypeScript
 // 允許 numberOrString 的型別是 string 或者 number，但是不能是其他型別。
 let numberOrString: number | string 
@@ -307,6 +312,7 @@ function getLength(something: string | number): number {
 
 ```
 * 聯合型別的變數在被賦值的時候，會根據型別推論的規則推斷出一個型別：
+
 ```TypeScript
 let numberOrString: string | number;
 numberOrString = 'seven';
@@ -335,6 +341,7 @@ function getLength2(input: string | number): number {
 
 ### 型別斷言（Type Assertion）
 * 開發者比 TS 更了解編寫的程式碼。因此，TS 允許開發者覆蓋它的推論，這樣的機制稱為「型別斷言」。
+
 ```typescript
 // 这里我们可以用 as 關鍵字，告诉typescript 这里我把它看作是一個 string，你可以给他用 string 的方法。
 function getLength(input: string | number): number {
@@ -348,6 +355,7 @@ function getLength(input: string | number): number {
 }
 ```
 * 型別斷言不是型別轉換，斷言成一個聯合型別中不存在的型別是不允許的：
+
 ```TypeScript
 function toBoolean(something: string | number): boolean {
     return <boolean>something;
@@ -355,6 +363,7 @@ function toBoolean(something: string | number): boolean {
 
 // index.ts(2,10): error TS2352: Type 'string | number' cannot be converted to type 'boolean'.
 //   Type 'number' is not comparable to type 'boolean'.
+
 ```
 
 基礎型別先介紹到這裡，下篇將介紹一些進階用法～

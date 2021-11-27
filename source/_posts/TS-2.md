@@ -1,8 +1,11 @@
 ---
 title: TypeScript 基礎介紹 (2)
-date: 2021-11-27 08:44:33
+date: 2021-11-27 09:44:33
 tags: ["TypeScript"]
 ---
+
+![](https://i.imgur.com/xGK5aDO.png)
+
 
 要熟悉 TypeScript 的型別訂定，並不容易，而且撰寫時也會花費較多的時間，但好處是減少程式碼的錯誤，也讓協作者更容易解讀對方撰寫的程式碼。
 萬事起頭難，不同的地方就是多讀幾次，或是尋找相關的範例來相呼應！
@@ -16,7 +19,9 @@ tags: ["TypeScript"]
     * 繼承（Inheritance）：子類別繼承父類別，子類別除了擁有父類別的所有特性外，還有一些更具體的特性
     * 多型（Polymorphism）：由繼承而產生了相關的不同的類別，對同一個方法可以有不同的響應
 ### 複習下 ES6 撰寫方式
+
 * 使用 class 定義類別，使用 constructor 定義建構函式。
+
 ```javascript
 class Animal{
     constructor(name){
@@ -42,6 +47,7 @@ console.log(bao.bark()) // bao is  barking
 ```
 * 使用 extends 關鍵字實現繼承
 * 这里我们重寫構造函式，注意在子類的構造函式中，必須使用 super 調用父類的方法，否則會報錯。
+
 ```typescript
 // 
 class Cat extends Animal {
@@ -65,6 +71,7 @@ TypeScript 可以使用三種訪問修飾符（Access Modifiers）
 * protected 修飾的屬性或方法是受保护的，它和 private 類似，區别是它在子類中也是允许被訪問的
 例子說明：
 * name 被設定為了 public，所以直接訪問實例的 name 屬性是允許的。
+
 ```typescript
 class Animal {
     public name;
@@ -96,6 +103,7 @@ a.name = 'Tom';
 // index.ts(10,1): error TS2341: Property 'name' is private and only accessible within class 'Animal'.
 ```
 * 使用 private 修飾的屬性或方法，在子類別中也是不允許訪問的：
+
 ```typescript
 class Animal {
     private name;
@@ -115,6 +123,7 @@ class Cat extends Animal {
 ```
 * 而如果是用 protected 修飾，則允許在子類別中訪問：
 * 將上述程式碼修改一下
+
 ```typescript
 class Animal {
     protected name;
@@ -126,6 +135,7 @@ class Animal {
 
 ### 類別 class 的型別
 給類別加上 TypeScript 的型別很簡單，與介面類似：
+
 ```typescript
 class Animal {
     name: string;
@@ -152,6 +162,7 @@ console.log(a.sayHi()); // My name is Jack
 #### 範例一：
 * 有 車子和手機，都有打開radio的功能
 * 可以將兩個共有的抽取為一個 interface
+
 ```typescript
 class Car  {
   switchRadio(trigger: boolean) {
@@ -168,6 +179,7 @@ class Cellphone {
 #### 可以將兩個共有的抽取為一個 interface
 *  void => 代表什麼都不返回
 *  在class 後面放入  implements 讓類去實現它
+
 ```typescript
 interface Radio {
   switchRadio(trigger: boolean): void;
@@ -205,6 +217,7 @@ class Cellphone implements Radio, Battery {
 ```
 #### 此外 interface 之間有繼承關係
 * 建立 radioWithBattery 繼承 Radio ，裡面再放入檢查電量的設定
+
 ```typescript
 interface radioWithBattery extends Radio {
   checkBatteryStatus(): void;
@@ -228,6 +241,7 @@ class Cellphone implements radioWithBattery {
 #### 範例一
 * 數字列舉
 * 列舉成員會被賦值為從0，開始遞增
+
 ```typescript
 // 數字列舉，一个數字列舉可以用 enum 这个關鍵詞來定義，我们定義一系列的方向，然后这里面的值，列舉成员会被赋值为從 0 开始遞增的數字,
 enum Direction {
@@ -245,6 +259,7 @@ console.log(Direction[0]) //up
 
 * 可以手動賦予值
 * 未手動賦值的列舉項會接著上一個列舉項遞增。
+
 ```typescript
 
   Up = 10,
@@ -259,6 +274,7 @@ console.log(Direction[0]) //up
 ```
 
 #### 範例二
+
 ```typescript
 // 字符串列舉
 enum Direction {
@@ -277,6 +293,7 @@ if (value === Direction.Up) {
 * 常數列舉
     * 編譯後的邏輯變少了
     * 使用常數列舉會內連列舉的用法並且不會將設定的列舉編譯成 JS 程式碼
+
 ```typescript
 const  enum Direction {
   Up = 'UP',
@@ -291,11 +308,13 @@ if (value === Direction.Up) {
 ```
 ![](https://i.imgur.com/Fp2XF0y.png)
 
+---
 ## 泛型 Generics
 * 要解決什麼問題
     * 建立函式 echo 參數為 arg ，接著宣告變數傳入參數
     * 但其中的型別沒有設定
     * 傳入和返回的型別無法統一
+
 ```typescript
 function echo(arg) {
   return arg
@@ -321,6 +340,7 @@ const result = echo(123)
 ![](https://i.imgur.com/X4quRIj.png)
 
 #### 範例二 傳入多個
+
 ```typescript
 function swap<T, U>(tuple: [T, U]): [U, T] {
   return [tuple[1], tuple[0]]
@@ -331,7 +351,7 @@ const result = swap(['string', 123])
 ```
 ![](https://i.imgur.com/hJ5IqSY.png)
 
-#### 泛型第二部分 - 约束泛型
+### 泛型第二部分 - 约束泛型
 * 帶有「限制」的泛型
 
 ```typescript
@@ -362,10 +382,11 @@ echoWithLength(7);
 
 ```
 
-#### 泛型第三部分 - 泛型在 class 和 interface 中的使用
+### 泛型第三部分 - 泛型在 class 和 interface 中的使用
 1. 泛型在 class 的使用
 * 在第一個程式中存在一个问题，它允許你向 Queue 中添加任何型別的數據，當然，當數據被彈出隊列时，也可以是任意類型
 * 在下方的範例中，看起来可以向隊列中添加 string 型別的數據，但是那麼在使用的過程中，就會出現無法捕捉的錯誤
+
 ```typescript
 class Queue {
   private data = [];
@@ -403,6 +424,7 @@ const queue = new Queue<number>()
 2. 泛型在  interface 中的使用
 * 之前提過可以使用介面的方式來定義一個函式需要符合的形狀
 * 當然也可以使用含有泛型的介面來定義函式的形狀：
+
 ```typescript
 //泛型和 interface
 interface KeyPair<T, U> {
@@ -423,11 +445,10 @@ interface 搭配泛型之后，可以靈活的返回不同的型別
 * 泛型就好像一个可變的參數，在用的时候傳入，生成这個不同型別的一个容器，
 * 上個部分的用它来靈活的约束参数的型別，不需要參數是一个特别死板的型別，不希望他是一个特定 string、number 型別，我要傳入的参數必须有某某屬性、某某方法，否則就會報錯。
 * 在函式使用的时候，函式的这个型別推斷，不會進入到函式中，所以使用表達式，没法明確建立型別的绑定，用泛型可以让我们打破這個鴻溝，這個时候就可以返回它傳入的類型。
-
----
-
 ## Type Aliases
+
 * 就是给型別起一個别名，讓它可以更方便的被重用。
+
 ```typescript
 let sum: (x: number, y: number) => number
 const result = sum(1,2)
@@ -447,6 +468,7 @@ let toWhere: Directions = 'Up'
 ```
 * 我們使用 type 定了一個字串字面量型別 EventNames，它只能取三種字串中的一種。
 注意，型別別名與字串字面量型別都是使用 type 進行定義。
+
 ```typescript
 type EventNames = 'click' | 'scroll' | 'mousemove';
 function handleEvent(ele: Element, event: EventNames) {
@@ -459,10 +481,12 @@ handleEvent(document.getElementById('world'), 'dbclick'); // 報錯，event 不�
 // index.ts(7,47): error TS2345: Argument of type '"dbclick"' is not assignable to parameter of type 'EventNames'.
 ```
 
-####  Intersection Types
+##  Intersection Types
+
 * 使用 `&` 符號
 * 經過上面的 type 使 IName 就有了 name 和 age兩個屬性在裡面
     * 和interface 的 extends 有點類似，都是為了實現物件形狀組合和擴展
+
 ```typescript
 interface IName  {
   name: string
@@ -480,6 +504,7 @@ let person: IPerson = { name: 'hello', age: 12}
 DOM 和 BOM 提供的內建物件有：
 Document、HTMLElement、Event、NodeList 等。
 TypeScript 中會經常用到這些型別：
+
 ```typescript
 let body: HTMLElement = document.body;
 let allDiv: NodeList = document.querySelectorAll('div');
@@ -489,6 +514,7 @@ document.addEventListener('click', function(e: MouseEvent) {
 ```
 ### ECMAScript 的內建物件
 * Boolean、Error、Date、RegExp 等。
+
 ```typescript
 let b: Boolean = new Boolean(1);
 let e: Error = new Error('Error occurred');
@@ -503,6 +529,7 @@ let r: RegExp = /[a-z]/;
 Typescript 還提供了一些功能性，帮助性的型別，這些型別，大家在 JS 的世界是看不到的，這些型別叫做 utility types，提供一些簡潔明快而且非常方便的功能。
 * 使用  Partial
 * Omit
+
 ```typescript
 // partial，它可以把傳入的型別都變成可選
 interface IPerson {
