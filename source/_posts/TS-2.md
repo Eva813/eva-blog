@@ -85,8 +85,10 @@ console.log(a.name); // Jack
 a.name = 'Tom';
 console.log(a.name); // Tom
 ```
+
 * 希望有的屬性是無法直接存取的，這時候就可以用 private 了：
 * name 設為 private
+
 ```typescript
 class Animal {
     private name;
@@ -102,6 +104,7 @@ a.name = 'Tom';
 // index.ts(9,13): error TS2341: Property 'name' is private and only accessible within class 'Animal'.
 // index.ts(10,1): error TS2341: Property 'name' is private and only accessible within class 'Animal'.
 ```
+
 * 使用 private 修飾的屬性或方法，在子類別中也是不允許訪問的：
 
 ```typescript
@@ -238,7 +241,7 @@ class Cellphone implements radioWithBattery {
 * 常數指執行程序中不會被改變的值，在 JS 中我們一般會用 const 來宣告
 * 但有些取值是在一定範圍內的一系列常數。
   * 如：一周內七天、三原色(紅、黃、藍)、方向(上、下、左、右)
-#### 範例一
+### 範例一
 * 數字列舉
 * 列舉成員會被賦值為從0，開始遞增
 
@@ -273,7 +276,7 @@ console.log(Direction[0]) //up
 
 ```
 
-#### 範例二
+### 範例二
 
 ```typescript
 // 字符串列舉
@@ -289,7 +292,7 @@ if (value === Direction.Up) {
 }
 ```
 
-#### 範例三
+### 範例三
 * 常數列舉
     * 編譯後的邏輯變少了
     * 使用常數列舉會內連列舉的用法並且不會將設定的列舉編譯成 JS 程式碼
@@ -327,7 +330,7 @@ const result = echo(123)
 * 當在建構 function、internet及Class 時，你會希望這些component都能被重複運用的 Generic(泛型)提供了一個彈性的作法。
 * 語法是: ``<T>``
 
-#### 範例一
+### 範例一
 * 泛型（Generics）是指在定義function、internet及Class的时候，不预先指定具體的型別，而在使用的时候再指定型別的一種特性。
 
 ```typescript
@@ -339,7 +342,7 @@ const result = echo(123)
 ```
 ![](https://i.imgur.com/X4quRIj.png)
 
-#### 範例二 傳入多個
+### 範例二 傳入多個
 
 ```typescript
 function swap<T, U>(tuple: [T, U]): [U, T] {

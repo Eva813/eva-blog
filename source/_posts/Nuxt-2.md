@@ -84,7 +84,7 @@ export default {
 ```
 ![](https://i.imgur.com/krqrhq8.png)
 
-#### 引用 static 靜態資源的檔案
+### 引用 static 靜態資源的檔案
 * static資料夾:靜態資源資料夾
     * 其中要連接該檔案路徑要用斜線
     * 這裡面的檔案不會被打包和優化
