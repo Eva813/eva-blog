@@ -32,6 +32,7 @@ tags: ["TypeScript"]
 ## 型別介紹
 從 JavaScript 型別分類開始
 ### 字串 string
+
 * 和ES6一樣，可以使用[字串樣板 Template Literals]
 ```TypeScript
 let firstName:string = 'NaNa'
@@ -39,6 +40,7 @@ let message: string = `Hello,${firstName}`
 
 ```
 ### 布林值 boolean
+
 布林值是最基礎的資料型別，在 TypeScript 中，使用 boolean 定義布林值型別： 
 ```typescript
 let isDonw:boolean = false 
@@ -56,6 +58,7 @@ let createdByNewBoolean: boolean = new Boolean(1);
 ```
 
 ### 數值 number
+
 ```TypeScript
 let age:number = 10
 let notANumber: number = NaN;
@@ -66,6 +69,7 @@ let infinityNumber: number = Infinity;
     * unfefined 可以賦值給number類型的變數
     * 陣列被赋值為 undefined 或 null 不会报错
     * `let num:number = undefined`
+    
 ```TypeScript
 let u: undefined = undefined;
 let n: null = null;

@@ -31,11 +31,9 @@ tags: ["Vue"]
 ![](https://i.imgur.com/qIvkq2l.png)
 
 ## 補充說明：
-```
 修改路徑:
 用~@來指定圖片路徑：@在vuecli是代表特殊意義，就會直接從src這個資料夾底下開始查找;而波浪符號，代表現在在css之中使用這個功能
 ![](https://i.imgur.com/NefWOd8.png)
 * 也就是在專案中，即便路徑複雜，只要在路徑最前面加上`@`就會直接進去src
 ![](https://i.imgur.com/sPhH1rs.png)
 
-```

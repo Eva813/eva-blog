@@ -11,6 +11,7 @@ tags: ["TypeScript"]
 萬事起頭難，不同的地方就是多讀幾次，或是尋找相關的範例來相呼應！
 
 ## Class
+
 傳統方法中，JavaScript 透過建構函式實現類別的概念，透過原型鏈實現繼承。而在 ES6 中，我們終於迎來了 class。
 * 定義一切事務的抽象特點
 * object  ：class 的實例  new Class 生成
@@ -516,6 +517,7 @@ document.addEventListener('click', function(e: MouseEvent) {
 });
 ```
 ### ECMAScript 的內建物件
+
 * Boolean、Error、Date、RegExp 等。
 
 ```typescript
