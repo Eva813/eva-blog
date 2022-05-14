@@ -1,5 +1,5 @@
 ---
-title: react- props / state 練習
+title: React- props / state 練習
 date: 2022-05-08 15:42:36
 tags: ["React"]
 ---
