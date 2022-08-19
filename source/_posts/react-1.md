@@ -4,6 +4,7 @@ date: 2022-05-08 15:42:36
 tags: ["React"]
 ---
 
+![](https://i.imgur.com/InPScmW.png)
 
 
 ## props, state 的應用
