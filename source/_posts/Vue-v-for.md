@@ -2,6 +2,7 @@
 title: Vue.js 3 -  多筆資料渲染 v-for
 date: 2021-05-17 16:20:22
 tags: ["Vue","v-for"] 
+categories: Vue
 ---
 ![](https://i.imgur.com/NBBY8vo.png)
 

@@ -1,7 +1,8 @@
 ---
 title: Vue.js 3 -  組件的拆分
 date: 2021-10-19 16:36:10
-tags: ["Vue"] 
+tags: ["Vue"]
+categories: Vue 
 ---
 
 試想今天有一個網頁，上方的導覽列有不同的分類，帶領你到該項目的分頁中

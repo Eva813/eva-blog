@@ -2,6 +2,7 @@
 title: React 測試
 date: 2022-11-02 15:43:21
 tags: ["React"]
+categories: React 測試
 ---
 
 使用 JavaSript 要進行測試最常使用的就是使用 Jest ，另外依據使用的前端框架來搭配使用進行測試。

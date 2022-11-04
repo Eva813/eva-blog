@@ -2,6 +2,7 @@
 title: React - 從官方文件學習 Context 的使用
 date: 2022-10-18 13:58:40
 tags: React
+categories: React
 ---
 
 ## Passing Data Deeply with Context

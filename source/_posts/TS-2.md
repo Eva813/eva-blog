@@ -2,6 +2,7 @@
 title: TypeScript 基礎介紹 (2)
 date: 2021-11-27 09:44:33
 tags: ["TypeScript"]
+categories: TypeScript
 ---
 
 ![](https://i.imgur.com/xGK5aDO.png)

@@ -2,6 +2,7 @@
 title: Vue.js 3 - v-on 修飾符
 date: 2021-09-20 15:06:46
 tags: ["Vue"]
+categories: Vue
 ---
 ![](https://i.imgur.com/NBBY8vo.png)
 

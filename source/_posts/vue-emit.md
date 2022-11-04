@@ -2,6 +2,7 @@
 title: Vue.js 3 -  資料傳遞 emit
 date: 2021-09-21 12:42:48
 tags: ["Vue"] 
+categories: Vue
 ---
 圖示：
 ![](https://i.imgur.com/PxIIobu.png)

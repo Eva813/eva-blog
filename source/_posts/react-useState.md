@@ -2,6 +2,7 @@
 title: React- 元件 / props
 date: 2022-09-04 15:42:36
 tags: ["React"]
+categories: React
 ---
 
 ![](https://i.imgur.com/InPScmW.png)

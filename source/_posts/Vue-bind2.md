@@ -2,6 +2,7 @@
 title: Vue.js 3 - 綁定方式多變化
 date: 2021-05-16 16:17:30
 tags: ["Vue"]
+categories: Vue
 ---
 
 ## 動態屬性綁定(注意大小寫)

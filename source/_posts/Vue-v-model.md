@@ -2,6 +2,7 @@
 title: Vue.js 3 -  資料雙向綁定 v-model
 date: 2021-05-17 16:16:22
 tags: ["Vue"]
+categories: Vue
 ---
 ![](https://i.imgur.com/NBBY8vo.png)
 

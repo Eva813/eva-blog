@@ -2,6 +2,7 @@
 title: Nuxt3-取得資料的方式
 date: 2021-12-10 20:08:43
 tags: ["Nuxt"]
+catagories: Nuxt
 ---
 
 ![](https://i.imgur.com/FAgr4vk.png)

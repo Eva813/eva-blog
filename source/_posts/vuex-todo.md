@@ -2,6 +2,7 @@
 title: 實作 Vuex - Todo List
 date: 2021-10-20 14:32:01
 tags: ["Vuex","Vue"]
+categories: Vue
 ---
 ![](https://i.imgur.com/RPoUnyd.png)
 

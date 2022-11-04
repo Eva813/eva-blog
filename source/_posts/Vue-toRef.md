@@ -2,6 +2,7 @@
 title: Vue.js 3 - toRef , toRefs
 date: 2022-02-28 14:16:15
 tags: ["Vue","v-for"] 
+categories: Vue
 ---
 
 ## toRef

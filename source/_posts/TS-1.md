@@ -2,6 +2,7 @@
 title: TypeScript 基礎介紹 (1)
 date: 2021-11-27 08:44:33
 tags: ["TypeScript"]
+categories: TypeScript
 ---
 
 因為工作需求，有需多缺乏的技能需要補齊，TypeScript 就是其中一項。

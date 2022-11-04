@@ -2,6 +2,7 @@
 title: Vue.js 3 - 事件綁定
 date: 2021-05-16 16:16:30
 tags: ["Vue"]
+categories: Vue
 ---
 ![](https://i.imgur.com/NBBY8vo.png)
 

@@ -2,6 +2,7 @@
 title: 講講幾個 Nuxt.js 重要觀念
 date: 2021-11-10 09:58:39
 tags: ["Nuxt"]
+catagories: Nuxt
 ---
 
 ![](https://i.imgur.com/4LE0BUW.png)

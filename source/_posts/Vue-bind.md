@@ -2,6 +2,7 @@
 title: Vue.js 3 - 屬性綁定
 date: 2021-05-16 14:56:28
 tags: ["Vue"]
+categories: Vue
 ---
 ![](https://i.imgur.com/NBBY8vo.png)
 

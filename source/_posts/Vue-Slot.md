@@ -2,6 +2,7 @@
 title: Vue.js 3 - Slot
 date: 2022-05-07 19:41:23
 tags: ["Vue","slot"]
+categories: Vue
 ---
 
 ![](https://i.imgur.com/NBBY8vo.png)

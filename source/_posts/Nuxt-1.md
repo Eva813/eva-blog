@@ -2,6 +2,7 @@
 title: 為何要學習 Nuxt.js ？
 date: 2021-11-10 09:30:01
 tags: ["Nuxt"]
+catagories: Nuxt
 ---
 
 ![](https://i.imgur.com/4LE0BUW.png)
