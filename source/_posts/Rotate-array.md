@@ -60,7 +60,6 @@ const revNum = (nums, start, end) => {
   }
   console.log(nums)
 }
-//end -> 陣列長度-1
 // revNum([1, 2, 3, 4], 0, 3)
 
 const rotateArray2 = function (nums, k) {

@@ -1,5 +1,5 @@
 ---
-title: 刷題練習 - Majority - Element
+title: 刷題練習 - Majority Element
 date: 2022-11-10 10:36:50
 tags: ["Leetcode"]
 categories: Leetcode
@@ -76,3 +76,85 @@ var majorityElement2 = function (nums) {
 };
 
 ```
+
+
+---
+
+229. Majority Element II
+此題也是使用摩爾投票法進行解題
+
+Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times.
+
+
+Example 1:
+
+```
+Input: nums = [3,2,3]
+Output: [3]
+```
+
+Example 2:
+
+```
+Input: nums = [1]
+Output: [1]
+```
+
+Example 3:
+
+```
+Input: nums = [1,2]
+Output: [1,2]
+```
+
+```javaScript
+var majorityElement = function (nums) {
+  // 只要是 > n/3 就進入陣列
+  let candidate1 = null;
+  let candidate2 = null;
+  let count1 = 0;
+  let count2 = 0;
+
+  for (let num of nums) {
+
+    if (candidate1 === num) {
+      count1++
+    } else if (candidate2 === num) {
+      count2++
+    } else if (count1 === 0) {
+      candidate1 = num;
+      count1++
+    } else if (count2 === 0) {
+      candidate2 = num;
+      count2++
+    } else {
+      count1--;
+      count2--;
+    }
+  }
+
+  console.log('data:', candidate1, candidate2)
+  count1 = 0;
+  count2 = 0;
+  const res = [];
+
+  limit = Math.floor(nums.length / 3)
+
+  for (let num of nums) {
+    if (candidate1 === num) count1++;
+    else if (candidate2 === num) {
+      count2++;
+    }
+  }
+  if (count1 > limit) res.push(candidate1)
+  if (count2 > limit) res.push(candidate2)
+  console.log(res, count1, count2)
+  return res
+
+};
+majorityElement([1, 2])
+```
+
+
+
+![](https://i.imgur.com/T2y5qLa.jpg)
