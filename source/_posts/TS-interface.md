@@ -144,6 +144,7 @@ interface UserAccount extends PersonalInfo, SocialLinks{
 Picking Items with `Pick<Type, Keys>`
 * 挑選想要的屬性(key)做使用
 * 注意 pick 只能在 type 宣告使用
+
 ```typescript
 interface Todo {
   title: string;
