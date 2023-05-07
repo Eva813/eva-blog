@@ -274,7 +274,7 @@ export type GenericT<T> = {
   [key:string]: T
 }
 
-
+//API 的應用！！！
 //注意：in 寫法只用於 type 中
 export type GenericKeyValObj<T extends  keyof any,P> = {
   [key in T ]: P
@@ -306,6 +306,7 @@ interface ApiContainerProps<Params, Res> {
 }
 
 ```
+* interface 與 type 的泛型寫法
 
 ```typeScript
 //interface 寫函式
