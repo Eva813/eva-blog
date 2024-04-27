@@ -47,6 +47,8 @@ tags: ["css"]
   ![image](https://hackmd.io/_uploads/HyCjULL_p.png)
   ![image](https://hackmd.io/_uploads/HkJWv8UO6.png)
 
+<!-- more -->
+
 ## 設置 breakout
 
 ```css
@@ -134,8 +136,6 @@ tags: ["css"]
 	minmax(var(--padding-inline), 1fr) [full-width-end];
 }
 ```
-
-<!-- more -->
 
 1. --padding-inline : 設計整體頁面 padding
 2. ch：CSS3 加入了 ch 這個單位，廣義來說就是『一個字元』，相當於用來呈現的字體裡『0』這個字形的步進度量 (advance measure)
