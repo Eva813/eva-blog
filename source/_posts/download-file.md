@@ -71,6 +71,8 @@ document.body.appendChild 將 `<a>` 標籤臨時加到 document 的 body 中。�
 然後模擬一次使用者點擊這個連結 (link.click())，觸發文件的下載過程。
 link.remove();下載操作完成後，我們把這個臨時創建的 `<a>` 標籤從頁面中移除。
 
+<!-- more -->
+
 ## 使用 header 的 content-disposition 取得檔名
 
 有時，後端會通過 Content-Disposition 頭信息傳遞文件名。為了確保下載時使用正確的文件名，我們可以從響應頭中解析文件名。
