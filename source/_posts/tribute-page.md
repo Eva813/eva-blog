@@ -2,6 +2,7 @@
 title: tribute-page 切版練習
 date: 2020-11-27 15:00:33
 tags: ["CSS"]
+categories: CSS
 ---
 在freeCodeCamp上，可以免費學習到程式語言的課程，除了提供基礎的介紹外，也有一些實作範本可以練習，此次，主要練習css切版的基礎，製作一個一頁的頁面
 

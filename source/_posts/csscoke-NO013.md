@@ -2,6 +2,7 @@
 title: "Amos金魚都能懂的切版教學影片- csscoke NO013"
 date: 2020-11-28 19:54:27
 tags: ["CSS","icon","box-sizing"]
+categories: CSS
 ---
 
 [My page](https://eva813.github.io/my-projects/coke-NO013(v1).html)

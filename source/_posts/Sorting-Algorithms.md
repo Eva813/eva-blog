@@ -2,6 +2,7 @@
 title: 演算法入門 - Sorting-Algorithms
 date: 2021-10-08 14:08:05
 tags: ["Algorithm"]
+categories: Algorithm
 ---
 ![](https://i.imgur.com/glzKE9I.png)
 

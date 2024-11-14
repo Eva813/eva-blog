@@ -1,7 +1,7 @@
 ---
 title: css-grid
 date: 2024-01-06 12:15:17
-tags: ["css"]
+tags: ["CSS"]
 ---
 
 在 Youtube 看到 Kevin Powell 介紹使用 grid 來作為 wrapper，以自適應網頁的縮放。

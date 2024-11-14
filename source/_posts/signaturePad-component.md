@@ -2,6 +2,7 @@
 title: 製作簽名面板元件
 date: 2023-12-23 12:49:11
 tags: ["Vue"]
+categories: Vue
 ---
 
 因工作需求需要製作簽名面板，查看套件使用度較高 [signature_pad](https://www.npmjs.com/package/signature_pad)

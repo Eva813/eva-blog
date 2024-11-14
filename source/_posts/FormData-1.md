@@ -2,6 +2,7 @@
 title: FormData 表單的運用
 date: 2022-01-6 10:44:33
 tags: ["JavaScript","TypeScript"]
+categories: JavaScript
 ---
 
 ![](https://i.imgur.com/xf0DAqA.png)

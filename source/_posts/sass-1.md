@@ -2,6 +2,7 @@
 title: CSS 預處理器- Sass/SCSS 基本介紹
 date: 2021-03-05 09:41:46
 tags: ["SCSS"]
+categories: SCSS
 ---
 ![](https://i.imgur.com/e59PuUk.png)
 

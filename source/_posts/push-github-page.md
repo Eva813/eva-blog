@@ -2,6 +2,7 @@
 title: 推送靜態網頁到 GitHub
 date: 2020-11-24 14:03:02
 tags: GitHub
+categories: GitHub
 ---
 ## 1.本地端創建資料夾
 

@@ -2,6 +2,7 @@
 title: Amos金魚都能懂的切版教學影片-csscoke NO011
 date: 2020-11-27 15:36:56
 tags: ["CSS","切版","animation","icon"]
+categories: CSS
 ---
 [成品](https://eva813.github.io/my-projects/coke-NO011(v1).html)
 ![](https://i.imgur.com/4oCdMgG.png)
