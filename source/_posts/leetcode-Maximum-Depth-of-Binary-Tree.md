@@ -57,6 +57,8 @@ function traverse(node) {
 }
 ```
 
+<!-- more -->
+
 ## Maximum Depth of Binary Tree 
 
 
