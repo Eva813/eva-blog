@@ -1,8 +1,8 @@
 ---
 title: 實現前端自動儲存系統：Next.js + Zustand 
 date: 2025-06-29 12:44:01
-tags: ["Next.js", "Side Project"]
-categories: Side Project
+tags: ["Next.js", "side-project"]
+categories: side-project
 description: "Implementing auto-save functionality with Zustand in Next.js 14 to enhance user experience and data security."
 ---
 

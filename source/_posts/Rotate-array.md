@@ -1,7 +1,7 @@
 ---
 title: 刷題練習 - Rotate Array
-tags: ["Leetcode"]
-categories: Leetcode
+tags: ["LeetCode"]
+categories: LeetCode
 ---
 
 

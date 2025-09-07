@@ -1,7 +1,7 @@
 ---
 title: 刷題練習 - Merge Two Sorted Lists
-tags: ["Leetcode"]
-categories: Leetcode
+tags: ["LeetCode"]
+categories: LeetCode
 ---
 
    首先要先了解 linked lists 和陣列是不一樣的！！

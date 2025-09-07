@@ -1,8 +1,8 @@
 ---
 title: 刷題練習 - Cache with Time Limit
 date: 2025-01-04 19:53:52
-tags: ["Leetcode"]
-categories: Leetcode
+tags: ["LeetCode"]
+categories: LeetCode
 ---
 
 Write a class that allows getting and setting key-value pairs, however a time until expiration is associated with each key.

@@ -1,8 +1,8 @@
 ---
 title: Next.js Middleware 中的身份驗證：Edge Runtime 限制與解決方案
 date: 2025-05-17 19:06:42
-tags: ["Next.js", "Side Project"]
-categories: Side Project
+tags: ["Next.js", "side-project"]
+categories: side-project
 description: "A project exploring the integration of Edge Runtime with Next.js and MongoDB."
 ---
 

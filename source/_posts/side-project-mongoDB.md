@@ -1,8 +1,8 @@
 ---
 title: Next.js API 與 MongoDB 設計實作：整合 NextAuth 多元驗證方式（Credentials + OAuth）
 date: 2025-05-17 18:23:24
-tags: ["Next.js", "Side Project", "MongoDB", "NextAuth"]
-categories: Side Project
+tags: ["Next.js", "side-project", "MongoDB", "NextAuth"]
+categories: side-project
 ---
 
 在開發 SaaS 或工具型應用時，「使用者驗證系統」往往是關鍵基礎設施。這篇文章將分享我如何使用 Next.js（App Router）+ MongoDB + NextAuth，同時支援 Google OAuth 和 自定義帳密登入，並分享專案 mongoDB 資料結構與 API 架構。

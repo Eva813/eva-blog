@@ -1,8 +1,8 @@
 ---
 title: side-project-zustand
 date: 2025-03-31 07:23:58
-tags: ["React", "Zustand", "Side Project"]
-categories: Side Project
+tags: ["React", "Zustand", "side-project"]
+categories: side-project
 ---
 
 這段時間在製作一個 snippet 管理的 side project，過程中遇到了一些跨頁面共享資料的需求。專案中有一包資料稱為 snippet，內部包含多個 folder 和小項目的 snippets。這些資料不僅會在 /snippet 路徑下的元件使用，還會跨 route 被其他頁面存取。

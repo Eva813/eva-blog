@@ -1,8 +1,8 @@
 ---
-title: Leetcode rotate-image
+title: LeetCode rotate-image
 date: 2022-12-21 09:46:00
-tags: ["Leetcode"]
-categories: Leetcode
+tags: ["LeetCode"]
+categories: LeetCode
 ---
 
 一開始看到題目，看到2維陣列就會有些緊張，想著是否要拆開，或是要如何從圖示去轉陣列，寫得很亂又雜還是解不出來。

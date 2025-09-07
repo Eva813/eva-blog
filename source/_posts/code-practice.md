@@ -1,11 +1,11 @@
 ---
 title: 刷題練習 - Valid Parentheses
 date: 2022-09-24 08:32:55
-tags: ["Leetcode"]
-categories: Leetcode
+tags: ["LeetCode"]
+categories: LeetCode
 ---
 
-  對於刷題總時敬而遠之，記得剛開始學習 JavaScript 時，有挑幾題來練習，看到題目後完全不知道該如何著手，甚至有些題目還要反覆看幾次才比較理解。 畢竟也踏入前端工程師近一年的時間，使用 JavaScript 也有兩年了，該是好好鑽研練習 Leetcode。
+  對於刷題總時敬而遠之，記得剛開始學習 JavaScript 時，有挑幾題來練習，看到題目後完全不知道該如何著手，甚至有些題目還要反覆看幾次才比較理解。 畢竟也踏入前端工程師近一年的時間，使用 JavaScript 也有兩年了，該是好好鑽研練習 LeetCode。
 
 題目：
   Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.

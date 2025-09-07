@@ -1,11 +1,11 @@
 ---
 title: 刷題練習 - Maximum Depth of Binary Tree 解題策略
 date: 2025-05-01 13:01:11
-tags: ["Leetcode"]
-categories: Leetcode
+tags: ["LeetCode"]
+categories: LeetCode
 ---
 
-Leetcode 題目多樣，尤其是「二元樹（Binary Tree）」相關題型，容易讓人看了發愣。
+LeetCode 題目多樣，尤其是「二元樹（Binary Tree）」相關題型，容易讓人看了發愣。
 
 本篇文章將教你如何釐清解法邏輯，並將二元樹題型拆解為兩大類解題策略，搭配範例與模板，幫助你用 DFS（深度優先搜尋）更系統地解題
 

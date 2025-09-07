@@ -1,8 +1,8 @@
 ---
 title: 刷題練習 - Majority Element
 date: 2022-11-10 10:36:50
-tags: ["Leetcode"]
-categories: Leetcode
+tags: ["LeetCode"]
+categories: LeetCode
 ---
 
 Given an array nums of size n, return the majority element.
