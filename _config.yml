@@ -102,11 +102,11 @@ deploy:
   repo: git@github.com:Eva813/Eva813.github.io.git
   branch: master
 
-  fields:
-    - title
-    - tags
-    - date
-    - categories
-    - excerpt
-    - permalink
-    - thumbnailImageUrl
+  # fields:
+  #   - title
+  #   - tags
+  #   - date
+  #   - categories
+  #   - excerpt
+  #   - permalink
+  #   - thumbnailImageUrl
