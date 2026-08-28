@@ -12,7 +12,7 @@ categories:
 
 # 刪掉你的 CLAUDE.md！別再堆指令了，定期重建才是正解
 
-> 本文整理自工程師 Charlie Hills 的部落格文章《Delete your CLAUDE.md》。文章源頭是 Anthropic Claude Code 負責人 Boris Cherny 曾透露：Anthropic 把系統提示砍掉超過 80%，模型反而表現更好（詳見前篇〈[狠砍80%系統指令！Claude Code之父揭AI心法](/2026/08/07/Claude-Code-Prompt-Reduction/)〉）。Charlie Hills 把這個反直覺的建議，變成一套自己也真的跑過一遍的具體操作流程。
+> 本文整理自工程師 Charlie Hills 的部落格文章《Delete your CLAUDE.md》。文章源頭是 Anthropic Claude Code 負責人 Boris Cherny 曾透露：Anthropic 把系統提示砍掉超過 80%，模型反而表現更好（詳見前篇〈[狠砍80％系統指令！Claude Code之父揭AI心法](/2026/08/07/Claude-Code-Prompt-Reduction/)〉）。Charlie Hills 把這個反直覺的建議，變成一套自己也真的跑過一遍的具體操作流程。
 
 ## 核心論點：CLAUDE.md 不是越寫越好
 
@@ -168,4 +168,4 @@ CLAUDE.md、skills、hooks 都會隨著模型進化而「折舊」——今天�
 ## 參考資料
 
 - [Charlie Hills：Delete your CLAUDE.md](https://charliehills.substack.com/p/delete-your-claudemd)
-- [前篇：狠砍80%系統指令！Claude Code之父揭AI心法](/2026/08/07/Claude-Code-Prompt-Reduction/)
+- [前篇：狠砍80％系統指令！Claude Code之父揭AI心法](/2026/08/07/Claude-Code-Prompt-Reduction/)

@@ -1,5 +1,5 @@
 ---
-title: 狠砍80%系統指令！Claude Code之父揭AI心法：別細寫Prompt了，時間要花在驗證
+title: 狠砍80％系統指令！Claude Code之父揭AI心法：別細寫Prompt了，時間要花在驗證
 date: 2026-08-07
 tags:
   - AI
@@ -10,7 +10,7 @@ categories:
   - AI
 ---
 
-# 狠砍80%系統指令！Claude Code之父揭AI心法：別細寫Prompt了，時間要花在驗證
+# 狠砍80％系統指令！Claude Code之父揭AI心法：別細寫Prompt了，時間要花在驗證
 
 > 本文整理自 Anthropic Claude Code 負責人 Boris Cherny 的分享。Boris 曾在 Meta 擔任五年首席工程師，著有《Programming TypeScript》一書，是 Claude Code 的創造者。
 
